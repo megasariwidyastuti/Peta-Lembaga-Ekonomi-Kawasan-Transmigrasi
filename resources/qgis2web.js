@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([10384434.795475, -1621395.256452, 16101794.833872, 1956783.779890], map.getSize());
+map.getView().fit([10578745.011313, -2206498.027923, 15910997.896850, 2134415.431047], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -529,7 +529,7 @@ document.getElementsByClassName('gcd-gl-btn')[0].className += ' fa fa-search';
 //layer search
 
 var searchLayer = new SearchLayer({
-    layer: lyr_KawasanTransmigrasi_2,
+    layer: lyr_153KawasanTransmigrasi_3,
     colName: 'KAWASAN',
     zoom: 10,
     collapsed: true,
